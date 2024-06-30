@@ -43,7 +43,7 @@ def writeP():
 
     tk.Button(add_window, text="Save", command=save_record).grid(row=6, columnspan=2, pady=10)
     
-#Funcition to Update Patient Records
+#Function to Update Patient Records
 def updateP():
     def search():
         id = id_entry.get()
